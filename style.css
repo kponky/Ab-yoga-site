@@ -16,7 +16,7 @@ body{
 }
 
 .section-margin{
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 10px 10px;
 }
 
@@ -157,10 +157,6 @@ img{
     transition: 0.3s ease-in;
 }
 
-/* .service h1{
-    padding: 10px;
-} */
-
 .service p{
      text-align: center;
      font-size: 18px;
@@ -179,9 +175,7 @@ img{
 
 .row img{
     width: 30%;
-    margin-top: -36px;
-
-
+    margin-top: -26px;
 }
 
 .service-detail .row {
@@ -199,6 +193,107 @@ img{
     font-size: 14px;
     line-height: 25px;
 }
+
+.classes {
+    display: flex;
+    /* margin: 10px; */
+    margin-top: 30px;
+}
+
+.classes h1{
+    text-align: left;
+    padding-left: 50px;
+}
+
+#classes-details{
+    width: 50%;
+    background: #a5a1a18a;
+    height: 369px;
+    /* height: 100%; */
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#classes-details p{
+    width: 90%;
+    padding-left: 50px;
+}
+
+
+#classes-details span{
+    color: rgba(143, 71, 143, 0.818);
+    padding: 5px;
+}
+
+#classes-img{
+    width: 50%;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+#classes-img img{
+    width: 90%;
+}
+
+
+.benefits #b-heading p{
+    text-align: center;
+     font-size: 18px;
+     font-weight: 700;
+}
+
+.benefit-img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position:static;
+    top: 400px;
+}
+
+#img-text{
+    width: 20%;
+}
+
+.div-2{
+    display: flex;
+}
+
+.avail-classes{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.avail-detail{
+    display: flex;
+    margin: 30px;
+}
+
+/* .avail-detail .row{
+    width: 0%;
+    flex: 0 100%;
+} */
+
+
+
+.av-image img{
+    margin-top: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
